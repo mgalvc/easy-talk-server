@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createServer } from 'http'
 import { Server, Socket } from 'socket.io'
 import { v4 as uuidv4 } from 'uuid'
